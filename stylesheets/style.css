@@ -1,0 +1,35 @@
+/*===========================
+site basic variable: ;
+===========================*/
+/*===========================*/
+@font-face {
+  font-family: LCDPHONE;
+  src: url(./font/LCDPHONE.TTF); }
+
+/* Firefox, Opera, Safari */
+@font-face {
+  font-family: LCDPHONE;
+  src: url(./font/LCDPHONE.TTF) format(”truetype”); }
+
+/* line 19, ../sass/style.scss */
+html {
+  height: 100%; }
+
+/* line 23, ../sass/style.scss */
+body {
+  height: 100%; }
+
+/* line 27, ../sass/style.scss */
+h1 {
+  font-family: "LCDPHONE";
+  font-size: 5.0em;
+  color: #000;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -200px; }
+
+/* line 38, ../sass/style.scss */
+ul li {
+  font-size: 100px; }
